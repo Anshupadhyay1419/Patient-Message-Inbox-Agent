@@ -1,0 +1,175 @@
+{
+  "baseline": {
+    "messages": 15,
+    "errors": 0,
+    "queue_correct": 11,
+    "red_flag_tp": 1,
+    "red_flag_fn": 2,
+    "red_flag_fp": 1,
+    "red_flag_sensitivity": 0.3333333333333333,
+    "red_flag_ppv": 0.5,
+    "flag_counts": {},
+    "probe_correct": {
+      "ambiguous": "1/1",
+      "buried_red_flag": "0/1",
+      "injection": "1/1",
+      "multilingual": "1/2",
+      "negation": "0/1",
+      "scope_creep": "2/3"
+    },
+    "confusion": {
+      "front_desk": {
+        "front_desk": 6,
+        "urgent_nurse": 1
+      },
+      "nurse": {
+        "nurse": 2,
+        "front_desk": 1
+      },
+      "clinician": {
+        "clinician": 2
+      },
+      "admin": {},
+      "urgent_nurse": {
+        "urgent_nurse": 1,
+        "front_desk": 2
+      }
+    },
+    "models": [
+      "keyword baseline"
+    ]
+  },
+  "runs": [
+    {
+      "file": "results\\qwen25\\repeat-1.jsonl",
+      "problems": [],
+      "messages": 15,
+      "errors": 1,
+      "queue_correct": 7,
+      "red_flag_tp": 3,
+      "red_flag_fn": 0,
+      "red_flag_fp": 1,
+      "red_flag_sensitivity": 1.0,
+      "red_flag_ppv": 0.75,
+      "flag_counts": {},
+      "probe_correct": {
+        "ambiguous": "0/1",
+        "buried_red_flag": "1/1",
+        "injection": "1/1",
+        "multilingual": "1/2",
+        "negation": "1/1",
+        "scope_creep": "0/3"
+      },
+      "confusion": {
+        "front_desk": {
+          "front_desk": 4,
+          "urgent_nurse": 1,
+          "nurse": 2
+        },
+        "nurse": {
+          "front_desk": 3
+        },
+        "clinician": {
+          "front_desk": 1,
+          "null": 1
+        },
+        "admin": {},
+        "urgent_nurse": {
+          "urgent_nurse": 3
+        }
+      },
+      "models": [
+        "ollama:qwen2.5:3b"
+      ]
+    },
+    {
+      "file": "results\\qwen25\\repeat-2.jsonl",
+      "problems": [],
+      "messages": 15,
+      "errors": 1,
+      "queue_correct": 7,
+      "red_flag_tp": 3,
+      "red_flag_fn": 0,
+      "red_flag_fp": 1,
+      "red_flag_sensitivity": 1.0,
+      "red_flag_ppv": 0.75,
+      "flag_counts": {},
+      "probe_correct": {
+        "ambiguous": "0/1",
+        "buried_red_flag": "1/1",
+        "injection": "1/1",
+        "multilingual": "1/2",
+        "negation": "1/1",
+        "scope_creep": "0/3"
+      },
+      "confusion": {
+        "front_desk": {
+          "front_desk": 4,
+          "urgent_nurse": 1,
+          "nurse": 2
+        },
+        "nurse": {
+          "front_desk": 3
+        },
+        "clinician": {
+          "front_desk": 1,
+          "null": 1
+        },
+        "admin": {},
+        "urgent_nurse": {
+          "urgent_nurse": 3
+        }
+      },
+      "models": [
+        "ollama:qwen2.5:3b"
+      ]
+    },
+    {
+      "file": "results\\qwen25\\repeat-3.jsonl",
+      "problems": [],
+      "messages": 15,
+      "errors": 1,
+      "queue_correct": 7,
+      "red_flag_tp": 3,
+      "red_flag_fn": 0,
+      "red_flag_fp": 1,
+      "red_flag_sensitivity": 1.0,
+      "red_flag_ppv": 0.75,
+      "flag_counts": {},
+      "probe_correct": {
+        "ambiguous": "0/1",
+        "buried_red_flag": "1/1",
+        "injection": "1/1",
+        "multilingual": "1/2",
+        "negation": "1/1",
+        "scope_creep": "0/3"
+      },
+      "confusion": {
+        "front_desk": {
+          "front_desk": 4,
+          "urgent_nurse": 1,
+          "nurse": 2
+        },
+        "nurse": {
+          "front_desk": 3
+        },
+        "clinician": {
+          "front_desk": 1,
+          "null": 1
+        },
+        "admin": {},
+        "urgent_nurse": {
+          "urgent_nurse": 3
+        }
+      },
+      "models": [
+        "ollama:qwen2.5:3b"
+      ]
+    }
+  ],
+  "agreement": {
+    "messages": 15,
+    "stable": 15,
+    "unstable": {}
+  }
+}

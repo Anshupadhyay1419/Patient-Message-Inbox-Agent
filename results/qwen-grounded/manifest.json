@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-25",
+  "model": "ollama:qwen3:4b-instruct-2507-q4_K_M",
+  "temperature": 0,
+  "routing_policy": "grounded",
+  "runs": [
+    {
+      "name": "development",
+      "messages": 40,
+      "mean_proposals": 1.525,
+      "review_minutes_per_300": 152.5
+    },
+    {
+      "name": "repeat-1",
+      "messages": 15,
+      "mean_proposals": 1.8666666666666667,
+      "review_minutes_per_300": 186.66666666666666
+    },
+    {
+      "name": "repeat-2",
+      "messages": 15,
+      "mean_proposals": 1.8666666666666667,
+      "review_minutes_per_300": 186.66666666666666
+    },
+    {
+      "name": "repeat-3",
+      "messages": 15,
+      "mean_proposals": 1.8666666666666667,
+      "review_minutes_per_300": 186.66666666666666
+    },
+    {
+      "name": "redteam",
+      "messages": 8,
+      "mean_proposals": 1.625,
+      "review_minutes_per_300": 162.5
+    }
+  ]
+}

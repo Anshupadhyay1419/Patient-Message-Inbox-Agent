@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "messages": 3,
+    "errors": 0,
+    "queue_correct": 3,
+    "red_flag_tp": 1,
+    "red_flag_fn": 0,
+    "red_flag_fp": 0,
+    "red_flag_sensitivity": 1.0,
+    "red_flag_ppv": 1.0,
+    "flag_counts": {},
+    "probe_correct": {},
+    "confusion": {
+      "front_desk": {
+        "front_desk": 1
+      },
+      "nurse": {
+        "nurse": 1
+      },
+      "clinician": {},
+      "admin": {},
+      "urgent_nurse": {
+        "urgent_nurse": 1
+      }
+    },
+    "models": [
+      "keyword baseline"
+    ]
+  },
+  "runs": [
+    {
+      "file": "results/reference-smoke.jsonl",
+      "problems": [],
+      "messages": 3,
+      "errors": 0,
+      "queue_correct": 2,
+      "red_flag_tp": 1,
+      "red_flag_fn": 0,
+      "red_flag_fp": 0,
+      "red_flag_sensitivity": 1.0,
+      "red_flag_ppv": 1.0,
+      "flag_counts": {},
+      "probe_correct": {},
+      "confusion": {
+        "front_desk": {
+          "front_desk": 1
+        },
+        "nurse": {
+          "front_desk": 1
+        },
+        "clinician": {},
+        "admin": {},
+        "urgent_nurse": {
+          "urgent_nurse": 1
+        }
+      },
+      "models": [
+        "ollama:qwen3:4b-instruct-2507-q4_K_M"
+      ]
+    }
+  ]
+}

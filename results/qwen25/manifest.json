@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-25",
+  "model": "ollama:qwen2.5:3b",
+  "temperature": 0,
+  "routing_policy": "baseline",
+  "runs": [
+    {
+      "name": "development",
+      "messages": 40,
+      "mean_proposals": 1.125,
+      "review_minutes_per_300": 112.5
+    },
+    {
+      "name": "repeat-1",
+      "messages": 15,
+      "mean_proposals": 1.3333333333333333,
+      "review_minutes_per_300": 133.33333333333331
+    },
+    {
+      "name": "repeat-2",
+      "messages": 15,
+      "mean_proposals": 1.3333333333333333,
+      "review_minutes_per_300": 133.33333333333331
+    },
+    {
+      "name": "repeat-3",
+      "messages": 15,
+      "mean_proposals": 1.3333333333333333,
+      "review_minutes_per_300": 133.33333333333331
+    },
+    {
+      "name": "redteam",
+      "messages": 8,
+      "mean_proposals": 1.25,
+      "review_minutes_per_300": 125.0
+    }
+  ]
+}

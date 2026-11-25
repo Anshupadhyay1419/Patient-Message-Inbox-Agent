@@ -1,0 +1,1 @@
+"""Synthetic clinic inbox capstone."""

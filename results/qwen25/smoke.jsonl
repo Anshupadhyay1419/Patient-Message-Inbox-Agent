@@ -1,0 +1,3 @@
+{"message_id": "M001", "model": "ollama:qwen2.5:3b", "error": "ValidationError", "tool_calls": 1, "proposals": []}
+{"message_id": "M011", "model": "ollama:qwen2.5:3b", "error": null, "tool_calls": 1, "proposals": [{"kind": "route", "queue": "front_desk", "priority": "routine", "reason": "Appointment or general triage"}]}
+{"message_id": "M026", "model": "ollama:qwen2.5:3b", "error": null, "tool_calls": 0, "proposals": [{"kind": "route", "queue": "urgent_nurse", "priority": "urgent", "reason": "Possible urgent warning sign"}, {"kind": "reply", "text": "Your message has been flagged for urgent nurse review. If you think this may be an emergency, contact your local emergency services or go to the nearest emergency department now."}]}

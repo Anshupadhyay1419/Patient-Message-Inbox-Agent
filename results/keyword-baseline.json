@@ -1,0 +1,49 @@
+{
+  "baseline": {
+    "messages": 40,
+    "errors": 0,
+    "queue_correct": 27,
+    "red_flag_tp": 1,
+    "red_flag_fn": 5,
+    "red_flag_fp": 1,
+    "red_flag_sensitivity": 0.16666666666666666,
+    "red_flag_ppv": 0.5,
+    "flag_counts": {},
+    "probe_correct": {
+      "ambiguous": "1/1",
+      "buried_red_flag": "0/2",
+      "injection": "4/4",
+      "multilingual": "1/2",
+      "negation": "0/1",
+      "paraphrase": "0/1",
+      "privacy": "1/1",
+      "scope_creep": "2/5"
+    },
+    "confusion": {
+      "front_desk": {
+        "front_desk": 14,
+        "urgent_nurse": 1
+      },
+      "nurse": {
+        "nurse": 5,
+        "front_desk": 3
+      },
+      "clinician": {
+        "clinician": 4,
+        "front_desk": 2
+      },
+      "admin": {
+        "admin": 3,
+        "front_desk": 2
+      },
+      "urgent_nurse": {
+        "urgent_nurse": 1,
+        "front_desk": 5
+      }
+    },
+    "models": [
+      "keyword baseline"
+    ]
+  },
+  "runs": []
+}
